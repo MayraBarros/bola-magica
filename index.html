@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bola mágica</title>
+</head>
+<body>
+    <video muted loop autoplay id="bgVideo" src="./IMG/magia-110548.mp4"></video>
+    <div class="contenedor-pp">
+        <h1>Escribe tu pregunta:</h1>
+        <div id="preguntaUser">
+            <input type="text" keyup="true" placeholder="Escribe tu pregunta aquí" class="pregunta">
+            <button>Consultar</button>
+        </div>
+    </div>
+
+    <div class="respuesta-magica">
+        <p>La bola mágica dice: </p>
+    </br>
+        <span id="respuestaMagica"></span>
+    </div>
+
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
