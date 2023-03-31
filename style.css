@@ -62,6 +62,7 @@
 .respuesta-magica p{
     font-size: 26px;
 }
+
 #respuestaMagica{
     transition: 1s;
     font-size: 20px;
@@ -69,5 +70,15 @@
     padding: 10px 20px;
     border-radius: 10px;
     background-color: blueviolet;
+}
+
+@media only screen and (max-width: 500px){
+    #respuestaMagica{
+        font-size: 14px;
+    }
+
+    .respuesta-magica p{
+        font-size: 20px;
+    }
 }
 

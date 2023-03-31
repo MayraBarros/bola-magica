@@ -65,6 +65,7 @@ const sendAnswer = () =>{
             break;    
     }
 
+    espacioRespuesta.removeAttribute('style')
     espacioRespuesta.innerHTML = respuesta;
     
 }
